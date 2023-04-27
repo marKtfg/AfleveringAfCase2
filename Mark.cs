@@ -10,29 +10,25 @@
             FirstName = firstname;
             _middleName = middleName;
             LastName = lastname;
-
-            //if (Utility.IsOnline())
-            //{
-            //    // Gør noget online her...
-            //}
         }
         private void SetMiddleName(string middleName)
         {
             _middleName = middleName;
         }
-        //public void GetMiddleName()
-        //{
-        //    return _middleName;
-        //}
+        public string GetMiddleName()
+        {
+            return _middleName;
+        }
+        public void SetLastName(string lastName)
+        {
+            LastName = lastName;
+        }
+        
         //Alt inde i en class kaldes en ''member'' det vil sige at ''public void showtext'' er en member
 
-        public void ShowText()
+        public string ShowText()
         {
-            Console.WriteLine($"Hello {FirstName} {LastName} !");
-        }
-        public string ShowText2()
-        {
-            return ($"Hello {FirstName} {_middleName} {LastName} !");
+            return ($"Hello {FirstName} {_middleName} {LastName}!");
         }
 
     }

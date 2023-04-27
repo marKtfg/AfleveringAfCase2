@@ -17,6 +17,6 @@
             List<Person> P = _h1.Teachers.ToList();
             P.Sort();
             return P;
-        } //System.Collections.Generic.List
+        } 
     }
 }

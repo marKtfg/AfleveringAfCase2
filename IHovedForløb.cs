@@ -2,7 +2,7 @@
 {
     internal interface IHovedForløb
     {
-        public string[] Teachers { get; set; }
+        public Person[] Teachers { get; set; }
         public string[] Students { get; set; }
         public string[] Courses { get; set; }
     }
