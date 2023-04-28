@@ -9,7 +9,7 @@
         {
             FirstName = firstname;
             _middleName = middleName;
-            LastName = lastname;
+            LastName = lastname;  
         }
         private void SetMiddleName(string middleName)
         {
