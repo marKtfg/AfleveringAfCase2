@@ -104,12 +104,8 @@ if (Enum.TryParse(userInput, true, out choices))
             break;
 
         default:
-
             Console.Clear();
-            if(userInput.Contains(' '))
-            {
             Console.WriteLine($"Du skal vælge {Choices.Lærer} eller {Choices.Elev}!");
-            }
             break;
     }
 }
