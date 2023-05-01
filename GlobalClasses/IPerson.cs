@@ -1,4 +1,4 @@
-﻿namespace Case2Aflevering
+﻿namespace Case2Aflevering.GlobalClasses
 {
     interface IPerson
     {

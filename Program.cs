@@ -1,13 +1,9 @@
-﻿using Case2Aflevering;
+﻿using Case2Aflevering.GlobalClasses; // Namespace som kan ses globalt
 using Microsoft.Extensions.DependencyInjection;
-
 
 var serviceProvider = new ServiceCollection()
 
     .BuildServiceProvider();
-
-
-
 
 Console.WriteLine();
 Console.WriteLine("Tast 0 for lærer eller 1 for elev.");
@@ -16,10 +12,10 @@ Console.WriteLine("Tast 0 for lærer eller 1 for elev.");
 // ENUM
 
 Console.WriteLine($"(Vælg {Choices.Lærer} eller {Choices.Elev}):");
-string input = Console.ReadLine();
+string userInput = Console.ReadLine();
 
 Choices choices;
-if (Enum.TryParse(input, true, out choices))
+if (Enum.TryParse(userInput, true, out choices))
 {
 
     switch (choices)
@@ -48,7 +44,7 @@ if (Enum.TryParse(input, true, out choices))
             Teacher teacher5 = new Teacher("Henrik Vincent Poulsen", "Netværk");
             teacher5.Hello(); // udskriver "Hej, jeg underviser i Netværk og mit navn er Henrik Vincent Poulsen"
             Console.WriteLine();
-            Teacher teacher6 = new Teacher("Clientsideprogrammering", "Peter Suni Lindenskov");
+            Teacher teacher6 = new Teacher("Peter Suni Lindenskov", "Clientsideprogrammering"); 
             teacher6.Hello(); // udskriver "Hej, jeg underviser i Clientsideprogrammering og mit navn er Peter Suni Lindenskov"
             break;
 
@@ -108,8 +104,12 @@ if (Enum.TryParse(input, true, out choices))
             break;
 
         default:
+
             Console.Clear();
+            if(userInput.Contains(' '))
+            {
             Console.WriteLine($"Du skal vælge {Choices.Lærer} eller {Choices.Elev}!");
+            }
             break;
     }
 }
