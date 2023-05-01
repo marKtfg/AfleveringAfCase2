@@ -1,0 +1,41 @@
+﻿Elever:
+
+Alexander Mathias Thamdru
+Allan Gawron
+Andreas Carl Balle
+Darab Haqnazar
+Felix Enok Berger
+Jamie D.
+Jeppe Carlseng Pedersen
+Joseph Holland-Hale
+Kamil Marcin Kulpa
+Loke Emil Bendtsen
+Mark Hyrsting Larsen
+Niklas Kim Jensen
+Rasmus Peter Hjorth
+Sammy Damiri
+Thomas Mose Holmberg
+Tobias Casanas Besser
+
+Lærer:
+
+Niels Olesen
+Flemming Sørensen
+Peter Suni Lindenskov
+Henrik Vincent Poulsen
+
+Fag:
+
+Studieteknik - Niels Olesen
+
+Grundlæggende programmering - Niels Olesen
+
+Database programmering - Niels Olesen
+
+OOP - Flemming Sørensen
+
+Netværk - Henrik Vincent Poulsen
+
+Computerteknologi - Niels Olesen
+
+Clientsideprogrammering - Peter Suni Lindenskov

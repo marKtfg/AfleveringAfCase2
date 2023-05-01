@@ -2,8 +2,8 @@
 {
     public enum Choices
     {
-        Lærer,  // det er 0
-        Elev,  // det er 1
-        Fag   // det er 2
+        Lærer = 0,  // det er 0
+        Elev = 1,  // det er 1
+        Fag  
     }
 }
